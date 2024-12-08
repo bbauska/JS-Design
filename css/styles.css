@@ -23,7 +23,7 @@ body{
 }
 
 #book .loader{
-	background-image:url(loader.gif);
+	background-image:url(./gif/js-design.gif);
 	width:24px;
 	height:24px;
 	display:block;
