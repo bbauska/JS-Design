@@ -1,5 +1,4 @@
-![](./js-design-images/media/image1.jpeg){width="7.0in"
-height="9.186666666666667in"}
+![](./images/image001.jpeg){width="7.0in" height="9.186666666666667in"}
 
 Learning JavaScript Design
 
@@ -6905,7 +6904,7 @@ canvas:{
 > incredibly powerful and I regularly use a similar approach in some of
 > my projects.
 >
-> ![](./js-design-images/media/image5.png){width="4.775in"
+> ![](./images/image005.png){width="4.775in"
 > height="3.5083333333333333in"}*Figure 11-1. Web inspector output*
 
 ### Dependency declaration pattern {#dependency-declaration-pattern .unnumbered}
