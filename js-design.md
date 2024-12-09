@@ -1,39 +1,13 @@
 ![](./images/image001.jpeg){width="7.0in" height="9.186666666666667in"}
 
-Learning JavaScript Design
+# Learning JavaScript Design Patterns
 
-Patterns
+Copyright © 2012 Addy Osmani. All rights reserved.
 
-> ***Addy Osmani***
->
-> Beijing **•** Cambridge **•** Farnham **•** Köln **•** Sebastopol
-> **•** Tokyo
->
-> **Learning JavaScript Design Patterns**
->
-> by Addy Osmani
->
-> Copyright © 2012 Addy Osmani. All rights reserved.
->
-> **Revision History for the :**
->
-> 2012-05-01 Early release revision 1
->
-> See *<http://oreilly.com/catalog/errata.csp?isbn=9781449331818>* for
-> release details.
->
-> ISBN: 978-1-449-33181-8
->
-> 1335906805
->
-> **Table of Contents**
-
-[Preface](#preface) [ix](#preface)
+**Table of Contents**
 
 1.  [Introduction](#_bookmark1) [1](#_bookmark1)
-
 2.  [What is a Pattern?](#_bookmark2) [3](#_bookmark2)
-
 [We already use patterns everyday](#we-already-use-patterns-everyday)
 [4](#we-already-use-patterns-everyday)
 
@@ -286,9 +260,6 @@ Backbone.js](#controllers-in-another-library-spine.js-vs-backbone.js)
 6.  [Namespace injection](#namespace-injection)
     [117](#namespace-injection)
 
-```{=html}
-<!-- -->
-```
 12. [Design Patterns in jQuery Core](#_bookmark99) [121](#_bookmark99)
 
 [Module Pattern](#module-pattern) [121](#module-pattern)
@@ -465,7 +436,7 @@ Patterns?](#what-makes-a-good-plugin-beyond-patterns)
 
 16. [References](#_bookmark162) [185](#_bookmark162)
 
-# Preface {#preface .unnumbered}
+# Preface
 
 > Design patterns are reusable solutions to commonly occurring problems
 > in software design. They are both exciting and a fascinating topic to
@@ -484,7 +455,7 @@ Patterns?](#what-makes-a-good-plugin-beyond-patterns)
 > In this book we will explore applying both classical and modern design
 > patterns to the JavaScript programming language.
 
-## Target Audience {#target-audience .unnumbered}
+## Target Audience
 
 > This book is targeted at professional developers wishing to improve
 > their knowledge of design patterns and how they can be applied to the
@@ -498,7 +469,7 @@ Patterns?](#what-makes-a-good-plugin-beyond-patterns)
 > If you would like to learn how to write beautiful, structured and
 > organized code, I believe this is the book for you.
 
-## Acknowledgments {#acknowledgments .unnumbered}
+## Acknowledgments
 
 > I will always be grateful for the talented technical reviewers who
 > helped review and improve this book, including those from the
@@ -530,7 +501,7 @@ Patterns?](#what-makes-a-good-plugin-beyond-patterns)
 > Finally, I would like to thank my wonderful wife Ellie, for all of her
 > support while I was putting together this publication.
 
-## Credits {#credits .unnumbered}
+## Credits
 
 > Whilst some of the patterns covered in this book were implemented
 > based on personal experience, many of them have been previously
@@ -545,7 +516,7 @@ Patterns?](#what-makes-a-good-plugin-beyond-patterns)
 > please accept my heartfelt apologies. If you contact me I\'ll be sure
 > to update them to include you on the list.
 
-## Reading {#reading .unnumbered}
+## Reading
 
 > Whilst this book is targeted at both beginners and intermediate
 > developers, a basic understanding of JavaScript fundamentals is
@@ -562,9 +533,9 @@ Patterns?](#what-makes-a-good-plugin-beyond-patterns)
 
 -   *JavaScript: The Good Parts* by Douglas Crockford
 
-[]{#_bookmark1 .anchor}**CHAPTER 1**
+[]**CHAPTER 1**
 
-# Introduction {#introduction .unnumbered}
+# Introduction
 
 > One of the most important aspects of writing maintainable code is
 > being able to notice the recurring themes in that code and optimize
@@ -628,9 +599,9 @@ Patterns?](#what-makes-a-good-plugin-beyond-patterns)
 > [dojo](http://dojotoolkit.org/) as well. Before we begin, let's look
 > at the exact definition of a 'pattern' in software design.
 
-[]{#_bookmark2 .anchor}**CHAPTER 2**
+[]**CHAPTER 2**
 
-# What is a Pattern? {#what-is-a-pattern .unnumbered}
+# What is a Pattern?
 
 > A pattern is a reusable solution that can be applied to commonly
 > occurring problems in software design - in our case - in writing
@@ -696,7 +667,7 @@ Patterns?](#what-makes-a-good-plugin-beyond-patterns)
     ensure that pattern-based solutions continue to become more robust
     than ad-hoc solutions may be.
 
-## We already use patterns everyday {#we-already-use-patterns-everyday .unnumbered}
+## We already use patterns everyday
 
 > To understand how useful patterns can be, let\'s review a very simple
 > element selection problem that the jQuery library solves for us
@@ -750,9 +721,9 @@ Patterns?](#what-makes-a-good-plugin-beyond-patterns)
 > We\'ll be looking at this and more design patterns later on in the
 > book.
 
-[]{#_bookmark4 .anchor}**CHAPTER 3**
+[]**CHAPTER 3**
 
-# \'Pattern\'-ity Testing, Proto-Patterns & {#pattern-ity-testing-proto-patterns .unnumbered}
+# \'Pattern\'-ity Testing, Proto-Patterns &
 
 **The Rule Of Three**
 
@@ -835,9 +806,9 @@ Patterns?](#what-makes-a-good-plugin-beyond-patterns)
     reviewing or defining a pattern, it is important to keep the above
     in mind.
 
-[]{#_bookmark5 .anchor}**CHAPTER 4**
+[]**CHAPTER 4**
 
-# The Structure Of A Design Pattern {#the-structure-of-a-design-pattern .unnumbered}
+# The Structure Of A Design Pattern
 
 > You may be curious about how a pattern author might approach outlining
 > structure, implementation and purpose of a new pattern. Traditionally,
@@ -897,9 +868,9 @@ Patterns?](#what-makes-a-good-plugin-beyond-patterns)
 > beneficial to use or build on top of existing proven patterns than
 > starting afresh.
 
-[]{#_bookmark6 .anchor}**CHAPTER 5**
+[]**CHAPTER 5**
 
-# Writing Design Patterns {#writing-design-patterns .unnumbered}
+# Writing Design Patterns
 
 > Although this book is aimed at those new to design patterns, a
 > fundamental under- standing of how a design pattern is written can
@@ -992,9 +963,9 @@ Patterns?](#what-makes-a-good-plugin-beyond-patterns)
 > patterns has given you some insights that will assist your learning
 > process for the next sections of this book.
 
-[]{#_bookmark7 .anchor}**CHAPTER 6**
+[]**CHAPTER 6**
 
-# Anti-Patterns {#anti-patterns .unnumbered}
+# Anti-Patterns
 
 > If we consider that a pattern represents a best-practice, an
 > anti-pattern represents a lesson that has been learned. The term
@@ -1071,9 +1042,9 @@ Patterns?](#what-makes-a-good-plugin-beyond-patterns)
 > code to negate them so that the overall quality of your solutions
 > improves instantly.
 
-[]{#_bookmark8 .anchor}**CHAPTER 7**
+[]**CHAPTER 7**
 
-# Categories Of Design Pattern {#categories-of-design-pattern .unnumbered}
+# Categories Of Design Pattern
 
 > A glossary from the well-known design book, *Domain-Driven
 > Terms,*rightly states that:
@@ -1100,7 +1071,7 @@ Patterns?](#what-makes-a-good-plugin-beyond-patterns)
 > briefly mention a few examples of the patterns that fall into these
 > categories before exploring specific ones in more detail.
 
-## Creational Design Patterns {#creational-design-patterns .unnumbered}
+## Creational Design Patterns
 
 > Creational design patterns focus on handling object creation
 > mechanisms where objects are created in a manner suitable for the
@@ -1112,7 +1083,7 @@ Patterns?](#what-makes-a-good-plugin-beyond-patterns)
 > Some of the patterns that fall under this category are: Constructor,
 > Factory, Abstract, Prototype, Singleton and Builder.
 
-## Structural Design Patterns {#structural-design-patterns .unnumbered}
+## Structural Design Patterns
 
 > Structural patterns are concerned with object composition and
 > typically identify simple ways to realize relationships between
@@ -1124,7 +1095,7 @@ Patterns?](#what-makes-a-good-plugin-beyond-patterns)
 > Patterns that fall under this category include: Decorator, Facade,
 > Flyweight, Adapter and Proxy.
 
-## Behavioral Design Patterns {#behavioral-design-patterns .unnumbered}
+## Behavioral Design Patterns
 
 > Behavioral patterns focus on improving or streamlining the
 > communication between disparate objects in a system.
@@ -1132,9 +1103,9 @@ Patterns?](#what-makes-a-good-plugin-beyond-patterns)
 > Some behavioral patterns include: Iterator, Mediator, Observer and
 > Visitor.
 
-[]{#_bookmark12 .anchor}**CHAPTER 8**
+[]<b>CHAPTER 8</b>
 
-# Design Pattern Categorization {#design-pattern-categorization .unnumbered}
+# Design Pattern Categorization
 
 > In my early experiences of learning about design patterns, I
 > personally found the fol- lowing table a very useful reminder of what
@@ -1147,7 +1118,7 @@ Patterns?](#what-makes-a-good-plugin-beyond-patterns)
 > are a number of additional patterns that are not mentioned here but
 > will be discussed later in the book.
 
-## A brief note on classes {#a-brief-note-on-classes .unnumbered}
+## A brief note on classes
 
 > Keep in mind that there will be patterns in this table that reference
 > the concept of \'classes\'. JavaScript is a class-less language,
@@ -1157,23 +1128,24 @@ Patterns?](#what-makes-a-good-plugin-beyond-patterns)
 > function where we then create an object using the new keyword. this
 > can be used to help define new properties and methods for the object
 > as follows:
->
-> *// A car \'class\'*
->
-> **function** Car(model) { **this**.model = model; **this**.color =
-> \'silver\'; **this**.year = \'2012\'; **this**.getInfo = **function**
-> () {
->
-> **return this**.model + \' \' + **this**.year;
->
-> }
->
-> }
->
+
+```
+// <i>A car 'class'</i>
+<b>function</b> Car(model) { 
+  <b>this</b>.model = model; 
+  <b>this</b>.color = 'silver'; 
+  <b>this</b>.year = '2012'; 
+  <b>this</b>.getInfo = <b>function</b>
+  () {
+<b>return this</b>.model + ' ' + <b>this</b>.year;
+}
+}
+```
+
 > We can then instantiate the object using the Car constructor we
 > defined above like this:
 >
-> **var** myCar = **new** Car(\'ford\'); myCar.year = \'2010\';
+> <b>var</b> myCar = <b>new</b> Car(\'ford\'); myCar.year = \'2010\';
 > console.log(myCar.getInfo());
 >
 > For more ways to define \'classes\' using JavaScript, see Stoyan
@@ -1183,14 +1155,14 @@ Patterns?](#what-makes-a-good-plugin-beyond-patterns)
 >
 > Let us now proceed to review the table.
 >
-> **Creational** Based on the concept of creating an object.
+> <b>Creational</b> Based on the concept of creating an object.
 >
-> ***Class***
+> <b><i>Class</i></b>
 >
 > *Factory Method* This makes an instance of several derived classes
 > based on interfaced data or events.
 >
-> ***Object***
+> <b><i>Object</i></b>
 >
 > *Abstract Factory* Creates an instance of several families of classes
 > without detailing con- crete classes.
@@ -1203,14 +1175,14 @@ Patterns?](#what-makes-a-good-plugin-beyond-patterns)
 > *Singleton* A class with only a single instance with global access
 > points.
 >
-> **Structural** Based on the idea of building blocks of objects
+> <b>Structural</b> Based on the idea of building blocks of objects
 >
-> ***Class***
+> <b><i>Class</i></b>
 >
 > *Adapter* Match interfaces of different classes therefore classes can
 > work together despite incompatible interfaces
 >
-> ***Object***
+> <b><i>Object</i></b>
 >
 > *Adapter* Match interfaces of different classes therefore classes can
 > work together despite incompatible interfaces
@@ -1231,60 +1203,60 @@ Patterns?](#what-makes-a-good-plugin-beyond-patterns)
 >
 > *Proxy* A place holder object representing the true object
 >
-> **Behavioral** Based on the way objects play and work together.
+> <b>Behavioral</b> Based on the way objects play and work together.
 >
-> ***Class***
+> <b><i>Class</i></b>
 >
-> *Interpreter* A way to include language elements in an application to
-> match the grammar of the intended language.
->
-> *Template Method* Creates the shell of an algorithm in a method, then
-> defer the exact steps to a subclass.
->
-> ***Object***
->
-> *Chain of Responsibility* A way of passing a request between a chain
-> of objects to find the object that can handle the request.
->
-> *Command* Encapsulate a command request as an object to enable,
-> logging and/or queuing of requests, and provides error-handling for
-> unhandled re- quests.
->
-> *Iterator* Sequentially access the elements of a collection without
-> knowing the inner workings of the collection.
->
-> *Mediator* Defines simplified communication between classes to prevent
-> a group of classes from referring explicitly to each other.
->
-> *Memento* Capture an object\'s internal state to be able to restore it
-> later.
->
-> *Observer* A way of notifying change to a number of classes to ensure
-> consistency between the classes.
->
-> *State* Alter an object\'s behavior when its state changes
->
-> *Strategy* Encapsulates an algorithm inside a class separating the
-> selection from the implementation
->
-> *Visitor* Adds a new operation to a class without changing the class
+*Interpreter* A way to include language elements in an application to
+match the grammar of the intended language.
 
-[]{#_bookmark14 .anchor}**CHAPTER 9**
+*Template Method* Creates the shell of an algorithm in a method, then
+defer the exact steps to a subclass.
 
-# JavaScript Design Patterns {#javascript-design-patterns .unnumbered}
+<b><i>Object</i></b>
 
-> We are now going to explore JavaScript implementations of a number of
-> both classical and modern design patterns. This section of the book
-> will cover an introduction to these patterns, whilst the next section
-> will focus on looking at some select patterns in greater detail.
->
-> A common question developers regularly ask is what the \'ideal\' set
-> of patterns they should be using are. There isn\'t a singular answer
-> to this question, but with the aid of what you\'ll learn in this book,
-> you will hopefully be able to use your best judgment to select the
-> right patterns to best suit your project\'s needs.
+*Chain of Responsibility* A way of passing a request between a chain
+of objects to find the object that can handle the request.
 
-##### The patterns we will be exploring in this section are the: {#the-patterns-we-will-be-exploring-in-this-section-are-the .unnumbered}
+*Command* Encapsulate a command request as an object to enable,
+logging and/or queuing of requests, and provides error-handling for
+unhandled re- quests.
+
+*Iterator* Sequentially access the elements of a collection without
+knowing the inner workings of the collection.
+
+*Mediator* Defines simplified communication between classes to prevent
+a group of classes from referring explicitly to each other.
+
+*Memento* Capture an object\'s internal state to be able to restore it
+later.
+
+*Observer* A way of notifying change to a number of classes to ensure
+consistency between the classes.
+
+*State* Alter an object\'s behavior when its state changes
+
+*Strategy* Encapsulates an algorithm inside a class separating the
+selection from the implementation
+
+*Visitor* Adds a new operation to a class without changing the class
+
+[]<b>CHAPTER 9</b>
+
+# JavaScript Design Patterns
+
+We are now going to explore JavaScript implementations of a number of
+both classical and modern design patterns. This section of the book
+will cover an introduction to these patterns, whilst the next section
+will focus on looking at some select patterns in greater detail.
+
+A common question developers regularly ask is what the \'ideal\' set
+of patterns they should be using are. There isn\'t a singular answer
+to this question, but with the aid of what you\'ll learn in this book,
+you will hopefully be able to use your best judgment to select the
+right patterns to best suit your project\'s needs.
+
+##### The patterns we will be exploring in this section are the:
 
 -   [Creational Pattern](#the-creational-pattern)
 
@@ -1314,378 +1286,289 @@ Patterns?](#what-makes-a-good-plugin-beyond-patterns)
 
 -   [Flyweight Pattern](#_bookmark50)
 
-## The Creational Pattern {#the-creational-pattern .unnumbered}
+## The Creational Pattern
 
-> The Creational pattern forms the basis for a number of the other
-> design patterns we\'ll be reviewing in this section and could be
-> considered the easiest to understand. It deals with the idea of
-> *creating* new *things*, specifically new objects. In JavaScript, the
-> three common ways to create new objects are as follows:
->
-> *// Each of the following options will create a new empty object:*
->
-> **var** newObject = {}; *// or*
->
-> **var** newObject = Object.create(**null**); *// or*
->
-> **var** newObject = **new** Object();
->
-> Where the \'Object\' constructor creates an object wrapper for a
-> specific value, or where no value is passed, it will create an empty
-> object and return it.
->
-> There are then four ways in which keys and values can then be assigned
-> to an object:
->
-> *// ECMAScript 3 compatible approaches*
->
-> *// 1. Dot syntax*
->
-> newObject.someKey = \'Hello World\'; *// Write properties*
->
-> **var** key = newObject.someKey; *// Access properties*
->
-> *// 2. Square bracket syntax*
->
-> newObject\[\'someKey\'\] = \'Hello World\'; *// Write properties*
->
-> **var** key = newObject\[\'someKey\'\]; *// Access properties*
->
-> *// ECMAScript 5 only compatible approaches*
->
-> *// For more information see:
-> <http://kangax.github.com/es5-compat-table/>*
->
-> *// 3. Object.defineProperty*
->
-> Object.defineProperty(newObject, \"someKey\", {
->
-> value: \"for more control of the property\'s behavior\", writable:
-> **true**,
->
-> enumerable: **true**, configurable: **true**
->
-> });
->
-> *// If the above feels a little difficult to read, a short-hand could*
->
-> *// be written as follows:*
->
-> **var** defineProp = **function** ( obj, key, value ){ config.value =
-> value; Object.defineProperty(obj, key, config);
->
-> }
->
-> *// Create a new empty object*
->
-> **var** man = Object.create(**null**);
->
-> *// Populate the object with properties*
->
-> defineProp( man, \'car\', \'Delorean\' );
->
-> defineProp( man, \'dob\', \'1981\' ); defineProp( man, \'beard\',
-> **false** );
->
-> *// 4. Object.defineProperties*
->
-> Object.defineProperties(newObject, { \"someKey\": {
->
-> value: \"Hello World\", writable: **true**
->
-> },
->
-> \"anotherKey\": { value: \"Foo bar\", writable: **false**
+The Creational pattern forms the basis for a number of the other
+design patterns we\'ll be reviewing in this section and could be
+considered the easiest to understand. It deals with the idea of
+*creating* new *things*, specifically new objects. In JavaScript, the
+three common ways to create new objects are as follows:
 
-}
+*// Each of the following options will create a new empty object:*
 
+<b>var</b> newObject = {}; *// or*
+
+<b>var</b> newObject = Object.create(<b>null</b>); *// or*
+<b>var</b> newObject = <b>new</b> Object();
+
+Where the \'Object\' constructor creates an object wrapper for a
+specific value, or where no value is passed, it will create an empty
+object and return it.
+
+There are then four ways in which keys and values can then be assigned
+to an object:
+
+```
+// <i>ECMAScript 3 compatible approaches</i>
+// <i>1. Dot syntax</i>
+newObject.someKey = 'Hello World'; // <i>Write properties</i>
+<b>var</b> key = newObject.someKey; // <i>Access properties</i>
+
+// <i>2. Square bracket syntax</i>
+newObject['someKey'] = 'Hello World'; // <i>Write properties</i>
+<b>var</b> key = newObject['someKey']; // <i>Access properties</i>
+
+// <i>ECMAScript 5 only compatible approaches</i>
+// <i>For more information see: <http://kangax.github.com/es5-compat-table/></i>
+// <i>3. Object.defineProperty</i>
+Object.defineProperty(newObject, "someKey", {
+  value: "for more control of the property's behavior", writable:
+  <b>true</b>,
+  enumerable: <b>true</b>, configurable: <b>true</b>
 });
 
-> As we will see a little later in the book, these methods can even be
-> used for inheritance, as follows:
->
-> **var** driver = Object.create(man); defineProp(driver, \'topSpeed\',
-> \'100mph\'); []{#_bookmark16 .anchor}driver.topSpeed *// 100mph*
-
-## The Constructor Pattern {#the-constructor-pattern .unnumbered}
-
-> The phrase 'constructor' is familiar to most developers, however if
-> you're a beginner it can be useful to review what a constructor is
-> before we get into talking about a pattern dedicated to it.
->
-> Constructors are used to create specific types of objects - they both
-> prepare the object for use and can also accept parameters which the
-> constructor uses to set the values of member variables when the object
-> is first created. The idea that a constructor is a para- digm can be
-> found in the majority of programming languages, including JavaScript.
-> You're also able to define custom constructors that define properties
-> and methods for your own types of objects.
-
-### Basic Constructors {#basic-constructors .unnumbered}
-
-> In JavaScript, constructor functions are generally considered a
-> reasonable way to im- plement instances. As we saw earlier, JavaScript
-> doesn\'t support the concept of classes but it does support special
-> constructor functions. By simply prefixing a call to a con- structor
-> function with the keyword \'new\', you can tell JavaScript you would
-> like func- tion to behave like a constructor and instantiate a new
-> object with the members defined by that function.Inside a constructor,
-> the keyword \'this\' references the new object that\'s being created.
-> Again, a very basic constructor may be:
->
-> **function** Car(model, year, miles) {
->
-> **this**.model = model;
->
-> **this**.year = year;
->
-> **this**.miles = miles;
->
-> **this**.toString = **function** () {
->
-> **return this**.model + \" has done \" + **this**.miles + \" miles\";
->
-> };
->
-> }
->
-> **var** civic = **new** Car(\"Honda Civic\", 2009, 20000);
->
-> **var** mondeo = **new** Car(\"Ford Mondeo\", 2010, 5000);
->
-> console.log(civic.toString()); console.log(mondeo.toString());
->
-> The above is a simple version of the constructor pattern but it does
-> suffer from some problems. One is that it makes inheritance difficult
-> and the other is that functions such as toString() are redefined for
-> each of the new objects created using the Car construc- tor. This
-> isn\'t very optimal as the function should ideally be shared between
-> all of the instances of the Car type.
-
-### Constructors With Prototypes {#constructors-with-prototypes .unnumbered}
-
-> Functions in JavaScript have a property called a prototype. When you
-> call a JavaScript constructor to create an object, all the properties
-> of the constructor\'s prototype are then made available to the new
-> object. In this fashion, multiple Car objects can be created which
-> access the same prototype. We can thus extend the original example as
-> follows:
->
-> **function** Car(model, year, miles) {
->
-> **this**.model = model; **this**.year = year; **this**.miles = miles;
->
-> }
->
-> *// Note here that we are using Object.prototype.newMethod rather
-> than*
->
-> *// Object.prototype so as to avoid redefining the prototype object*
->
-> Car.prototype.toString = **function** () {
->
-> **return this**.model + \" has done \" + **this**.miles + \" miles\";
->
-> };
->
-> **var** civic = **new** Car(\"Honda Civic\", 2009, 20000);
->
-> **var** mondeo = **new** Car(\"Ford Mondeo\", 2010, 5000);
-> console.log(civic.toString());
->
-> Here, a single instance of toString() will now be shared between all
-> of the Car objects.
-
-## The Singleton Pattern {#the-singleton-pattern .unnumbered}
-
-> In conventional software engineering, the singleton pattern can be
-> implemented by creating a class with a method that creates a new
-> instance of the class if one doesn\'t
->
-> exist. In the event of an instance already existing, it simply returns
-> a reference to that object.
->
-> The singleton pattern is thus known because traditionally, it
-> restricts instantiation of a class to a single object. With
-> JavaScript, singletons serve as a namespace provider which isolate
-> implementation code from the global namespace so-as to provide a
-> single point of access for functions.
->
-> The singleton doesn\'t provide a way for code that doesn\'t know about
-> a previous ref- erence to the singleton to easily retrieve it - it is
-> not the object or \'class\' that\'s returned by a singleton, it\'s a
-> structure. Think of how closured variables aren\'t actually closures
->
-> \- the function scope that provides the closure is the closure.
->
-> Singletons in JavaScript can take on a number of different forms and
-> researching this pattern online is likely to result in at least 10
-> different variations. In its simplest form, a singleton in JS can be
-> an object literal grouped together with its related methods and
-> properties as follows:
->
-> **var** mySingleton = { property1: \"something\",
->
-> property2: \"something else\", method1: **function** () {
->
-> console.log(\'hello world\');
->
-> }
->
-> };
->
-> If you wished to extend this further, you could add your own private
-> members and methods to the singleton by encapsulating variable and
-> function declarations inside a closure. Exposing only those which you
-> wish to make public is quite straight-forward from that point as
-> demonstrated below:
->
-> **var** mySingleton = **function** () {
->
-> *// here are our private methods and variables*
->
-> **var** privateVariable = \'something private\';
->
-> **function** showPrivate() { console.log(privateVariable);
->
-> }
->
-> *// public variables and methods (which can access*
->
-> *// private variables and methods )*
->
-> **return** {
->
-> publicMethod: **function** () { showPrivate();
->
-> },
->
-> publicVar: \'the public can see this!\'
->
-> };
->
-> };
->
-> **var** single = mySingleton();
->
-> single.publicMethod(); *// logs \'something private\'*
->
-> console.log(single.publicVar); *// logs \'the public can see this!\'*
->
-> The above example is great, but let\'s next consider a situation where
-> you only want to instantiate the singleton when it\'s needed. To save
-> on resources, you can place the instantiation code inside another
-> constructor function as follows:
->
-> **var** Singleton = (**function** () {
->
-> **var** instantiated;
->
-> **function** init() {
->
-> *// singleton here*
->
-> **return** {
->
-> publicMethod: **function** () { console.log(\'hello world\');
->
-> },
->
-> publicProperty: \'test\'
->
-> };
->
-> }
->
-> **return** {
->
-> getInstance: **function** () {
->
-> **if** (!instantiated) { instantiated = init();
->
-> }
->
-> **return** instantiated;
-
+// <i>If the above feels a little difficult to read, a short-hand could</i>
+// <i>be written as follows:</i>
+<b>var</b> defineProp = <b>function</b> ( obj, key, value ){ config.value =
+value; Object.defineProperty(obj, key, config);
 }
+// <i>Create a new empty object</i>
+<b>var</b> man = Object.create(<b>null</b>);
 
+// <i>Populate the object with properties</i>
+defineProp( man, 'car', 'Delorean' );
+defineProp( man, 'dob', '1981' ); 
+defineProp( man, 'beard', <b>false</b> );
+
+// <i>4. Object.defineProperties</i>
+Object.defineProperties(newObject, { "someKey": {
+  value: "Hello World", writable: <b>true</b>
+},
+"anotherKey": { value: "Foo bar", writable: <b>false</b>
+}
+});
+```
+
+As we will see a little later in the book, these methods can even be
+used for inheritance, as follows:
+
+```
+<b>var</b> driver = Object.create(man); 
+defineProp(driver, 'topSpeed', '100mph'); 
+[]driver.topSpeed // <i>100mph</i>
+```
+
+## The Constructor Pattern
+
+The phrase 'constructor' is familiar to most developers, however if
+you're a beginner it can be useful to review what a constructor is
+before we get into talking about a pattern dedicated to it.
+
+Constructors are used to create specific types of objects - they both
+prepare the object for use and can also accept parameters which the
+constructor uses to set the values of member variables when the object
+is first created. The idea that a constructor is a para- digm can be
+found in the majority of programming languages, including JavaScript.
+You're also able to define custom constructors that define properties
+and methods for your own types of objects.
+
+### Basic Constructors
+
+In JavaScript, constructor functions are generally considered a
+reasonable way to im- plement instances. As we saw earlier, JavaScript
+doesn\'t support the concept of classes but it does support special
+constructor functions. By simply prefixing a call to a con- structor
+function with the keyword \'new\', you can tell JavaScript you would
+like func- tion to behave like a constructor and instantiate a new
+object with the members defined by that function.Inside a constructor,
+the keyword \'this\' references the new object that\'s being created.
+Again, a very basic constructor may be:
+
+```
+<b>function</b> Car(model, year, miles) {
+  <b>this</b>.model = model;
+  <b>this</b>.year = year;
+  <b>this</b>.miles = miles;
+  <b>this</b>.toString = <b>function</b> () {
+    <b>return this</b>.model + " has done " + <b>this</b>.miles + " miles";
+  };
+}
+<b>var</b> civic = <b>new</b> Car("Honda Civic", 2009, 20000);
+<b>var</b> mondeo = <b>new</b> Car("Ford Mondeo", 2010, 5000);
+console.log(civic.toString()); console.log(mondeo.toString());
+```
+
+The above is a simple version of the constructor pattern but it does
+suffer from some problems. One is that it makes inheritance difficult
+and the other is that functions such as toString() are redefined for
+each of the new objects created using the Car construc- tor. This
+isn\'t very optimal as the function should ideally be shared between
+all of the instances of the Car type.
+
+### Constructors With Prototypes
+
+Functions in JavaScript have a property called a prototype. When you
+call a JavaScript constructor to create an object, all the properties
+of the constructor\'s prototype are then made available to the new
+object. In this fashion, multiple Car objects can be created which
+access the same prototype. We can thus extend the original example as
+follows:
+
+```
+<b>function</b> Car(model, year, miles) {
+  <b>this</b>.model = model; <b>this</b>.year = year; 
+  <b>this</b>.miles = miles;
+}
+// <i>Note here that we are using Object.prototype.newMethod rather than</i>
+// <i>Object.prototype so as to avoid redefining the prototype object</i>
+Car.prototype.toString = <b>function</b> () {
+  <b>return this</b>.model + " has done " + <b>this</b>.miles + " miles";
 };
+<b>var</b> civic = <b>new</b> Car("Honda Civic", 2009, 20000);
+<b>var</b> mondeo = <b>new</b> Car("Ford Mondeo", 2010, 5000);
+console.log(civic.toString());
+```
 
+Here, a single instance of toString() will now be shared between all
+of the Car objects.
+
+## The Singleton Pattern
+
+In conventional software engineering, the singleton pattern can be
+implemented by creating a class with a method that creates a new
+instance of the class if one doesn\'t exist. In the event of an 
+instance already existing, it simply returns a reference to that object.
+
+The singleton pattern is thus known because traditionally, it
+restricts instantiation of a class to a single object. With
+JavaScript, singletons serve as a namespace provider which isolate
+implementation code from the global namespace so-as to provide a
+single point of access for functions.
+
+The singleton doesn\'t provide a way for code that doesn\'t know about
+a previous ref- erence to the singleton to easily retrieve it - it is
+not the object or \'class\' that\'s returned by a singleton, it\'s a
+structure. Think of how closured variables aren\'t actually closures
+\- the function scope that provides the closure is the closure.
+
+Singletons in JavaScript can take on a number of different forms and
+researching this pattern online is likely to result in at least 10
+different variations. In its simplest form, a singleton in JS can be
+an object literal grouped together with its related methods and
+properties as follows:
+
+```
+<b>var</b> mySingleton = { 
+  property1: "something",
+  property2: "something else", 
+  method1: <b>function</b> () {
+    console.log('hello world');
+  }
+};
+```
+
+If you wished to extend this further, you could add your own private
+members and methods to the singleton by encapsulating variable and
+function declarations inside a closure. Exposing only those which you
+wish to make public is quite straight-forward from that point as
+demonstrated below:
+
+```
+<b>var</b> mySingleton = <b>function</b> () {
+  // <i>here are our private methods and variables</i>
+  <b>var</b> privateVariable = 'something private';
+  <b>function</b> showPrivate() { 
+    console.log(privateVariable);
+  }
+  // <i>public variables and methods (which can access</i>
+  // <i>private variables and methods )</i>
+  <b>return</b> {
+    publicMethod: <b>function</b> () { showPrivate();
+    },
+    publicVar: 'the public can see this!'
+  };
+};
+<b>var</b> single = mySingleton();
+single.publicMethod(); // <i>logs 'something private'</i>
+console.log(single.publicVar); // <i>logs 'the public can see this!'</i>
+```
+
+The above example is great, but let\'s next consider a situation where
+you only want to instantiate the singleton when it\'s needed. To save
+on resources, you can place the instantiation code inside another
+constructor function as follows:
+
+```
+<b>var</b> Singleton = (<b>function</b> () {
+<b>var</b> instantiated;
+<b>function</b> init() {
+// <i>singleton here</i>
+<b>return</b> {
+publicMethod: <b>function</b> () { console.log(\'hello world\');
+},
+publicProperty: \'test\'
+};
+}
+<b>return</b> {
+getInstance: <b>function</b> () {
+<b>if</b> (!instantiated) { instantiated = init();
+}
+<b>return</b> instantiated;
+}
+};
 })();
-
-> *// calling public methods is then as easy as:*
+// <i>calling public methods is then as easy as:</i>
+```
 
 Singleton.getInstance().publicMethod();
 
-> So, where else is the singleton pattern useful in practice?. Well,
-> it\'s quite useful when exactly one object is needed to coordinate
-> patterns across the system. Here\'s one last example of the singleton
-> pattern being used:
+So, where else is the singleton pattern useful in practice?. Well,
+it's quite useful when exactly one object is needed to coordinate
+patterns across the system. Here\'s one last example of the singleton
+pattern being used:
 
-**var** SingletonTester = (**function** () {
+```
+<b>var</b> SingletonTester = (<b>function</b> () {
 
-> *// options: an object containing configuration options for the
-> singleton*
->
-> *// e.g var options = { name: \'test\', pointX: 5};*
+// <i>options: an object containing configuration options for the singleton</i>
+// <i>e.g var options = { name: 'test', pointX: 5};</i>
+<b>function</b> Singleton(options) {
 
-**function** Singleton(options) {
-
-> *// set options to the options supplied or an empty object if none
-> provided.*
-
+// <i>set options to the options supplied or an empty object if none provided.</i>
 options = options \|\| {};
 
-> *//set the name parameter*
+//<i>set the name parameter</i>
+<b>this</b>.name = \'SingletonTester\';
 
-**this**.name = \'SingletonTester\';
+// <i>set the value of pointX</i>
+<b>this</b>.pointX = args.pointX || 6;
 
-> *//set the value of pointX*
->
-> **this**.pointX = args.pointX \|\| 6;
->
-> *//set the value of pointY*
->
-> **this**.pointY = args.pointY \|\| 10;
->
-> }
->
-> *// this is our instance holder*
->
-> **var** instance;
->
-> *// this is an emulation of static variables and methods*
->
-> **var** \_static = {
->
-> name: \'SingletonTester\',
->
-> *// This is a method for getting an instance*
->
-> *// It returns a singleton instance of a singleton object*
->
-> getInstance: **function** (options) {
->
-> **if** (instance === **undefined**) { instance = **new**
-> Singleton(options);
->
-> }
->
-> **return** instance;
-
+// <i>set the value of pointY</i>
+<b>this</b>.pointY = args.pointY || 10;
 }
 
-};
+// <i>this is our instance holder</i>
+<b>var</b> instance;
 
-> **return** \_static;
->
-> })();
->
-> **var** singletonTest = SingletonTester.getInstance({ pointX: 5
->
-> });
->
-> console.log(singletonTest.pointX); *// outputs 5*
+// <i>this is an emulation of static variables and methods</i>
+<b>var</b> _static = {
+name: 'SingletonTester',
+
+// <i>This is a method for getting an instance</i>
+// <i>It returns a singleton instance of a singleton object</i>
+getInstance: <b>function</b> (options) {
+<b>if</b> (instance === <b>undefined</b>) { instance = <b>new</b>
+Singleton(options);
+}
+<b>return</b> instance;
+}
+};
+<b>return</b> _static;
+})();
+<b>var</b> singletonTest = SingletonTester.getInstance({ pointX: 5
+});
+console.log(singletonTest.pointX); // <i>outputs 5</i>
+```
 
 ## The Module Pattern {#the-module-pattern .unnumbered}
 
@@ -10187,107 +10070,75 @@ factory(**function**(value) {
 >
 > *// setup code here, then you can access the element*
 >
-> *// on which the widget was called via this.element.*
->
-> *// The options defined above can be accessed*
->
-> *// via this.options this.element.addStuff();*
->
-> },
->
-> *// Destroy an instantiated plugin and clean up*
->
-> *// modifications the widget has made to the DOM*
->
-> destroy: **function** () {
->
-> *// this.element.removeStuff();*
->
-> *// For UI 1.8, destroy must be invoked from the*
->
-> *// base widget*
->
-> \$.Widget.prototype.destroy.call(**this**);
->
-> *// For UI 1.9, define \_destroy instead and don\'t*
->
-> *// worry about*
->
-> *// calling the base widget*
->
-> },
->
-> methodB: **function** ( event ) {
->
-> *//\_trigger dispatches callbacks the plugin user*
->
-> *// can subscribe to*
->
-> *// signature: \_trigger( \"callbackName\" , \[eventObject\],*
->
-> *// \[uiObject\] )*
->
-> *// e.g. this.\_trigger( \"hover\", e /\*where e.type ==*
->
-> *// \"mouseenter\"\*/, { hovered: \$(e.target)});*
->
-> **this**.\_trigger(\'methodA\', event, { key: value
->
-> });
->
-> },
->
-> methodA: **function** ( event ) {
->
-> **this**.\_trigger(\'dataChanged\', event, { key: value
->
-> });
->
-> },
->
-> *// Respond to any changes the user makes to the*
->
-> *// option method*
->
-> \_setOption: **function** ( key, value ) {
 
+// <i>on which the widget was called via this.element.</i>
+// <i>The options defined above can be accessed</i>
+// <i>via this.options this.element.addStuff();</i>
+
+},
+
+// <i>Destroy an instantiated plugin and clean up</i>
+// <i>modifications the widget has made to the DOM</i>
+destroy: **function** () {
+
+// <i>this.element.removeStuff();</i>
+// <i>For UI 1.8, destroy must be invoked from the</i>
+// <i>base widget</i>
+$.Widget.prototype.destroy.call(**this**);
+
+// <i>For UI 1.9, define _destroy instead and don't</i>
+// <i>worry about</i>
+// <i>calling the base widget</i>
+},
+methodB: **function** ( event ) {
+
+// <i>_trigger dispatches callbacks the plugin user</i>
+// <i>can subscribe to</i>
+// <i>signature: _trigger( "callbackName" , [eventObject],</i>
+// <i>[uiObject] )</i>
+// <i>e.g. this._trigger( "hover", e /*where e.type ==</i>
+// <i>"mouseenter"*, { hovered: $(e.target)});</i>
+
+**this**._trigger('methodA', event, { key: value
+  });
+},
+methodA: **function** ( event ) {
+**this**._trigger('dataChanged', event, { key: value
+});
+},
+
+// <i>Respond to any changes the user makes to the</i>
+// <i>option method</i>
+_setOption: **function** ( key, value ) {
 **switch** (key) {
+**case** "someValue":
 
-> **case** \"someValue\":
->
-> *//this.options.someValue = doSomethingWith( value );*
->
-> **break**; **default**:
->
-> *//this.options\[ key \] = value;*
+// <i>this.options.someValue = doSomethingWith( value );</i>
+**break**; **default**:
 
+// <i>this.options[ key ] = value;</i>
 **break**;
+}
 
-> }
->
-> *// For UI 1.8, \_setOption must be manually invoked*
->
-> }
->
-> });
->
-> *// from the base widget*
->
-> \$.Widget.prototype.\_setOption.apply( **this**, arguments );
->
-> *// For UI 1.9 the \_super method can be used instead*
->
-> *// this.\_super( \"\_setOption\", key, value );*
->
-> })( jQuery, window, document );
->
-> Usage:
->
-> **var** collection = \$(\'#elem\').widgetName({ foo: **false**
->
-> });
->
-> collection.widgetName(\'methodB\');
+// <i>For UI 1.8, _setOption must be manually invoked</i>
+}
+});
+
+// <i>from the base widget</i>
+$.Widget.prototype._setOption.apply( **this**, arguments );
+
+// <i>For UI 1.9 the _super method can be used instead</i>
+// <i>this._super( "_setOption", key, value );</i>
+})( jQuery, window, document );
+```
+
+Usage:
+
+```
+**var** collection = \$(\'#elem\').widgetName({ foo: **false**
+});
+collection.widgetName(\'methodB\');
+```
 
 ### Further Reading {#further-reading-1 .unnumbered}
 
@@ -10306,30 +10157,28 @@ factory(**function**(value) {
     Tutorial](http://bililite.com/blog/understanding-jquery-ui-widgets-a-tutorial/),"
     Hacking at 0300
 
-## Namespacing And Nested Namespacing {#namespacing-and-nested-namespacing .unnumbered}
+## Namespacing And Nested Namespacing
 
-> Namespacing your code is a way to avoid collisions with other objects
-> and variables in the global namespace. They're important because you
-> want to safeguard your plugin from breaking in the event that another
-> script on the page uses the same variable or plugin names as yours. As
-> a good citizen of the global namespace, you must also do your best not
-> to prevent other developer\'s scripts from executing because of the
-> same issues.
->
-> JavaScript doesn\'t really have built-in support for namespaces as
-> other languages do, but it does have objects that can be used to
-> achieve a similar effect. Employing a top- level object as the name of
-> your namespace, you can easily check for the existence of another
-> object on the page with the same name. If such an object does not
-> exist, then we define it; if it does exist, then we simply extend it
-> with our plugin.
->
-> Objects (or, rather, object literals) can be used to create nested
-> namespaces, such as namespace.subnamespace.pluginName and so on. But
-> to keep things simple, the name- spacing boilerplate below should give
-> you everything you need to get started with these concepts.
->
-> */\*!*
+Namespacing your code is a way to avoid collisions with other objects
+and variables in the global namespace. They're important because you
+want to safeguard your plugin from breaking in the event that another
+script on the page uses the same variable or plugin names as yours. As
+a good citizen of the global namespace, you must also do your best not
+to prevent other developer\'s scripts from executing because of the
+same issues.
+
+JavaScript doesn\'t really have built-in support for namespaces as
+other languages do, but it does have objects that can be used to
+achieve a similar effect. Employing a top- level object as the name of
+your namespace, you can easily check for the existence of another
+object on the page with the same name. If such an object does not
+exist, then we define it; if it does exist, then we simply extend it
+with our plugin.
+
+Objects (or, rather, object literals) can be used to create nested
+namespaces, such as namespace.subnamespace.pluginName and so on. But
+to keep things simple, the name- spacing boilerplate below should give
+you everything you need to get started with these concepts.
 
 -   *jQuery namespaced \'Starter\' plugin boilerplate*
 
@@ -10339,80 +10188,55 @@ factory(**function**(value) {
 
 -   *Licensed under the MIT license*
 
-> *\*/*
->
-> ;(**function** ( \$ ) {
->
-> **if** (!\$.myNamespace) {
->
-> \$.myNamespace = {};
->
-> };
->
-> \$.myNamespace.myPluginName = **function** ( el, myFunctionParam,
-> options ) {
->
-> *// To avoid scope issues, use \'base\' instead of \'this\'*
->
-> *// to reference this class from internal events and functions.*
->
-> **var** base = **this**;
->
-> *// Access to jQuery and DOM versions of element*
->
-> base.\$el = \$(el); base.el = el;
->
-> *// Add a reverse reference to the DOM object*
->
-> base.\$el.data( \"myNamespace.myPluginName\" , base );
->
-> base.init = **function** () { base.myFunctionParam = myFunctionParam;
->
-> base.options = \$.extend({},
->
-> \$.myNamespace.myPluginName.defaultOptions, options);
->
-> *// Put your initialization code here*
->
-> };
->
-> *// Sample Function, Uncomment to use*
->
-> *// base.functionName = function( paramaters ){*
->
-> *//*
->
-> *// };*
->
-> *// Run initializer*
->
-> base.init();
->
-> };
->
-> \$.myNamespace.myPluginName.defaultOptions = { myDefaultValue: \"\"
->
-> };
->
-> \$.fn.mynamespace_myPluginName = **function** ( myFunctionParam,
-> options ) { **return this**.each(**function** () {
->
-> (**new** \$.myNamespace.myPluginName(**this**, myFunctionParam,
-> options));
->
-> });
->
-> };
->
-> })( jQuery );
->
-> Usage:
->
-> \$(\'#elem\').mynamespace_myPluginName({ myDefaultValue: \"foobar\"
->
-> });
+```
+**/
+;(**function** ( $ ) {
+**if** (!$.myNamespace) {
+$.myNamespace = {};
+};
+$.myNamespace.myPluginName = **function** ( el, myFunctionParam,
+options ) {
+// <i>To avoid scope issues, use 'base' instead of 'this'</i>
+// <i>to reference this class from internal events and functions.</i>
+**var** base = **this**;
 
-### Further Reading {#further-reading-2 .unnumbered}
+// <i>Access to jQuery and DOM versions of element</i>
+base.$el = $(el); base.el = el;
+
+// <i>Add a reverse reference to the DOM object</i>
+base.$el.data( "myNamespace.myPluginName" , base );
+base.init = **function** () { base.myFunctionParam = myFunctionParam;
+base.options = $.extend({},
+$.myNamespace.myPluginName.defaultOptions, options);
+
+// <i>Put your initialization code here</i>
+};
+
+// <i>Sample Function, Uncomment to use</i>
+// <i>base.functionName = function( paramaters ){</i>
+// <i>};</i>
+// <i>Run initializer</i>
+base.init();
+};
+$.myNamespace.myPluginName.defaultOptions = { myDefaultValue: ""
+};
+$.fn.mynamespace_myPluginName = **function** ( myFunctionParam,
+options ) { **return this**.each(**function** () {
+(**new** $.myNamespace.myPluginName(**this**, myFunctionParam,
+options));
+});
+};
+})( jQuery );
+```
+
+Usage:
+
+```
+$('#elem').mynamespace_myPluginName({ myDefaultValue: "foobar"
+});
+```
+
+### Further Reading
 
 -   "[Namespacing in
     JavaScript](http://javascriptweblog.wordpress.com/2010/12/07/namespacing-in-javascript/),"
@@ -10430,7 +10254,7 @@ factory(**function**(value) {
     JavaScript](http://www.2ality.com/2011/04/modules-and-namespaces-in-javascript.html),"
     Axel Rauschmayer
 
-## Custom Events For Pub/Sub (With The Widget factory) {#custom-events-for-pubsub-with-the-widget-factory .unnumbered}
+## Custom Events For Pub/Sub (With The Widget factory)
 
 > You may have used the Observer (Pub/Sub) pattern in the past to
 > develop asynchronous JavaScript web applications. The basic idea here
@@ -10535,13 +10359,13 @@ factory(**function**(value) {
 >
 > el.eventStatus().trigger(\'myEventStart\');
 
-### Further Reading {#further-reading-3 .unnumbered}
+### Further Reading
 
 -   "[Communication Between jQuery UI
     Widgets](http://www.devpatch.com/2010/03/communication-between-jquery-ui-widgets/),"
     Benjamin Sternthal
 
-## Prototypal Inheritance With The DOM-To-Object Bridge Pattern {#prototypal-inheritance-with-the-dom-to-object-bridge-pattern .unnumbered}
+## Prototypal Inheritance With The DOM-To-Object Bridge Pattern
 
 > In JavaScript, we don't have the traditional notion of classes that
 > you would find in other classical programming languages, but we do
@@ -10680,7 +10504,7 @@ factory(**function**(value) {
 > **var** collection = \$(\'#elem\').data(\'myobj\'); []{#_bookmark148
 > .anchor}collection.myMethod(\'I am a method\');
 
-### Further Reading {#further-reading-4 .unnumbered}
+### Further Reading
 
 -   "[Using Inheritance Patterns To Organize Large jQuery
     Applications](http://alexsexton.com/?p=51)," Alex Sexton
@@ -10697,7 +10521,7 @@ factory(**function**(value) {
     JavaScript](http://javascript.crockford.com/prototypal.html),"
     Douglas Crockford
 
-## jQuery UI Widget Factory Bridge {#jquery-ui-widget-factory-bridge .unnumbered}
+## jQuery UI Widget Factory Bridge
 
 > If you liked the idea of generating plugins based on objects in the
 > last design pattern, then you might be interested in a method found in
@@ -10862,13 +10686,13 @@ factory(**function**(value) {
 >
 > instance.foo(\"\_privateFunction\"); *// =\> #elem element*
 
-### Further Reading {#further-reading-5 .unnumbered}
+### Further Reading
 
 -   "[Using \$.widget.bridge Outside of the Widget
     Factory](http://erichynds.com/jquery/using-jquery-ui-widget-factory-bridge/),"
     Eric Hynds
 
-## jQuery Mobile Widgets With The Widget factory {#jquery-mobile-widgets-with-the-widget-factory .unnumbered}
+## jQuery Mobile Widgets With The Widget factory
 
 > jQuery mobile is a framework that encourages the design of ubiquitous
 > Web applica- tions that work both on popular mobile devices and
@@ -11092,7 +10916,7 @@ factory(**function**(value) {
 > widget and page- create binding in a page running jQuery Mobile site,
 > and it will automatically run like any other jQuery Mobile plugin.
 
-## RequireJS And The jQuery UI Widget Factory {#requirejs-and-the-jquery-ui-widget-factory .unnumbered}
+## RequireJS And The jQuery UI Widget Factory
 
 > RequireJS is a script loader that provides a clean solution for
 > encapsulating application logic inside manageable modules. It's able
@@ -11311,7 +11135,7 @@ factory(**function**(value) {
 >
 > });
 
-### Further Reading {#further-reading-6 .unnumbered}
+### Further Reading
 
 -   [Using RequireJS with
     jQuery](http://jqfundamentals.com/book/index.html#example-10.5),
@@ -11416,7 +11240,7 @@ factory(**function**(value) {
 >
 > });
 
-### Further Reading {#further-reading-7 .unnumbered}
+### Further Reading
 
 -   [jQuery
     Pluginization](http://benalman.com/talks/jquery-pluginization.html)
@@ -11424,7 +11248,7 @@ factory(**function**(value) {
     gist](https://gist.github.com/472783/e8bf47340413129a8abe5fac55c83336efb5d4e1),
     Ben Alman
 
-## A Highly Configurable And Mutable Plugin {#a-highly-configurable-and-mutable-plugin .unnumbered}
+## A Highly Configurable And Mutable Plugin
 
 > Like Alex Sexton's pattern, the following logic for our plugin isn't
 > nested in a jQuery plugin itself. We instead define our plugin's logic
@@ -11585,9 +11409,9 @@ factory(**function**(value) {
 >
 > \$(\'#elem\').plugin({ message: \"foobar\"
 >
-> []{#_bookmark157 .anchor}});
+> []});
 
-### Further Reading {#further-reading-8 .unnumbered}
+### Further Reading
 
 -   "[Creating Highly Configurable jQuery
     Plugins](http://markdalgleish.com/2011/05/creating-highly-configurable-jquery-plugins/),"
@@ -11597,7 +11421,7 @@ factory(**function**(value) {
     2](http://markdalgleish.com/2011/09/html5data-creating-highly-configurable-jquery-plugins-part-2/),"
     Mark Dalgleish
 
-## UMD: AMD And CommonJS-Compatible Modules For Plugins {#umd-amd-and-commonjs-compatible-modules-for-plugins .unnumbered}
+## UMD: AMD And CommonJS-Compatible Modules For Plugins
 
 > Whilst many of the plugin and widget patterns presented above are
 > acceptable for general use, they aren't without their caveats. Some
@@ -11637,7 +11461,7 @@ factory(**function**(value) {
 
 -   A loader isn't required at all to make this pattern fully function.
 
-##### usage.html {#usage.html .unnumbered}
+##### usage.html
 
 > \<script type=\"text/javascript\"
 > src=[\"http://code.jquery.com/jquery-1.7.1.min.js\"](http://code.jquery.com/jquery-1.7.1.min.js)\>\</script\>
@@ -11689,7 +11513,7 @@ factory(**function**(value) {
 >
 > \</script\>
 
-##### pluginCore.js {#plugincore.js .unnumbered}
+##### pluginCore.js
 
 > *// Module/Plugin core*
 >
@@ -11771,7 +11595,7 @@ factory(**function**(value) {
 >
 > });
 
-##### pluginExtension.js {#pluginextension.js .unnumbered}
+##### pluginExtension.js
 
 > *// Extension to module core*
 
@@ -11847,7 +11671,7 @@ factory(**function**(value) {
 > free to check out the patterns suggested to date as you may find them
 > helpful.
 
-### Further Reading {#further-reading-9 .unnumbered}
+### Further Reading
 
 -   "[Using AMD Loaders to Write and Manage Modular
     JavaScript](http://unscriptable.com/code/Using-AMD-loaders/#0),"
@@ -11868,7 +11692,7 @@ factory(**function**(value) {
     jQuery](http://tagneto.blogspot.com/2010/12/standards-and-proposals-for-javascript.html),"
     James Burke
 
-## What Makes A Good Plugin Beyond Patterns? {#what-makes-a-good-plugin-beyond-patterns .unnumbered}
+## What Makes A Good Plugin Beyond Patterns?
 
 > At the end of the day, patterns are just one aspect of plugin
 > development. And before we wrap up, here are my criteria for selecting
@@ -11941,9 +11765,9 @@ factory(**function**(value) {
 > establish how well it solves your problem or fits the component you're
 > trying to build. Choose the pattern that best suits your needs.
 >
-> []{#_bookmark161 .anchor}**CHAPTER 15**
+> []**CHAPTER 15**
 
-# Conclusions {#conclusions .unnumbered}
+## Conclusions
 
 > That's it for this introduction to the world of design patterns in
 > JavaScript - I hope you've found it useful. The contents of this book
@@ -11993,9 +11817,9 @@ factory(**function**(value) {
 > [mani.com](http://addyosmani.com/)* or on Twitter
 > [\@addyosmani](http://twitter.com/addyosmani).
 >
-> []{#_bookmark162 .anchor}**CHAPTER 16**
+> []**CHAPTER 16**
 
-# References {#references .unnumbered}
+# References
 
 1.  Design Principles and Design Patterns - Robert C
     Martin[*http://www.objectmentor*](http://www.objectmentor.com/resources/articles/Principles_and_Patterns.pdf)
